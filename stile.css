@@ -52,3 +52,27 @@ nav a:hover{
     color: orange;
     text-decoration: underline;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* occupa tutta la larghezza della pagina */
+    height: auto; /* altezza del footer */
+    text-align: center;
+    
+    /* background-color: #f2f2f2; */
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(177, 177, 177) 100%); 
+
+
+    font-family: Rubik, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+#buttons{
+    padding-top: 7px;
+    padding-bottom: 4px;
+    width: 100%;
+    height: 100%;
+}
